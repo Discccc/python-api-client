@@ -1,6 +1,3 @@
-import os
-from dotenv import load_dotenv
+from config import API_KEY
 
-load_dotenv()
-key=os.getenv("TEST_KEY")
-print(key)
+print (API_KEY)
